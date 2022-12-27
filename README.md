@@ -41,3 +41,5 @@ and fill the necessary information.
 | `cc`           | `string` | CC (optional)                                                                                  |
 | `bcc`          | `string` | BCC (optional)                                                                                 |
 | `email_body`   | `string` | Email body                                                                                     |
+
+**Example mail_url:** smtp://EXAMPLE_USER:EXAMPLE_PASSWORD@in-v3.mailjet.com
