@@ -7,7 +7,7 @@ const mail = require("../services/EmailSenderService")
 Dates are provided in ISO 8601, e.g. 2022-12-27T20:32Z with UTC+00:00
  */
 
-router.get("/",(req,res) => {
+router.post("/",(req,res) => {
     if(!req.body.date){
         res.sendStatus(500);
     } else {
