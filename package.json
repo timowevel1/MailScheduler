@@ -1,0 +1,25 @@
+{
+  "name": "mailscheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timowevel1/MailScheduler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timowevel1/MailScheduler/issues"
+  },
+  "homepage": "https://github.com/timowevel1/MailScheduler#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-schedule": "^2.1.0",
+    "nodemailer": "^6.8.0"
+  }
+}
