@@ -33,6 +33,7 @@ and fill the necessary information.
 | Body parameter | Type     | Description                                                                                    |
 |:---------------| :------- |:-----------------------------------------------------------------------------------------------|
 | `secret`       | `string` | Required (if USE_SECRET is enabled in .env, recommended if you use MAIL_URL from config)       |
+| `date`         | `string` | Date in ISO 8601                                                                               |
 | `mail_url`     | `string` | Mail URL to use for sending the email (Optional). If not provided, MAIL_URL from .env is used. |
 | `email_to`     | `string` | Recipient email address                                                                        |
 | `email_from`   | `string` | Sender email address                                                                           |
